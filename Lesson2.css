@@ -1,0 +1,62 @@
+.subscribe-btn{
+    background-color: rgb(200, 0, 0);
+    color: white;
+    height:36px;
+    width: 105px;
+    border: none;
+    border-radius: 2px;
+    cursor:pointer;
+    margin-right: 8px;
+    transition: opacity 0.2s;
+
+
+}
+.subscribe-btn:hover{
+    opacity: 0.8;
+}
+.subscribe-btn:active{
+    opacity: 0.3;
+}
+.join-btn{
+    background-color: white;
+    color:rgb(41, 118, 211);
+    height:36px;
+    width: 62px;
+    border:2px solid rgb(41, 118, 211) ;
+    border-radius: 2px;
+    cursor:pointer;
+    margin-right: 8px;
+    transition: opacity 0.2s, background-color 0.2s, color 0.2s ;
+    /*also you can set the border-style:solid;
+    border-width:1px; this will do same as border:1px solid;
+    */
+}
+.join-btn:hover{
+    background-color:rgb(41, 118, 211);
+    color: white;
+}
+.join-btn:active{
+    opacity: 0.8;
+}
+.tweet-btn{
+    background-color:rgb(2, 158, 255);
+    color: white;
+    height:36px;
+    width: 74px;
+    border:2px solid rgb(59, 187, 238) ;
+    border-radius: 50px;
+    border-radius: 2px;
+    border-radius: 18px;  /*half of the height*/
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: opacity 0.2s;
+}
+.tweet-btn:hover{
+    opacity: 0.8;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.tweet-btn:active{
+    opacity: 0.3;
+}
